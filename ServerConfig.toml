@@ -6,7 +6,7 @@ SendErrorsShowMessage = false
 Name = "Connect Hosting Free server"
 Port = 
 ResourceFolder = "Resources"
-# AuthKey has to be filled out in order to run the server
+# Change the Auth Key in the startup section above settings on the connect hosting panel.
 AuthKey = ""
 Private = false
 MaxPlayers = 10
