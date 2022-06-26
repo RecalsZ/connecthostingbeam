@@ -1,7 +1,7 @@
 
 [General]
 # If SendErrors is `true`, the server will send helpful info about crashes and other issues back to the BeamMP developers. This info may include your config, who is on your server at the time of the error, and similar general information. This kind of data is vital in helping us diagnose and fix issues faster. This has no impact on server performance. You can opt-out of this system by setting this to `false`
-SendErrorsShowMessage = true
+SendErrorsShowMessage = false
 
 Name = "Connect Hosting Free server"
 Port = 
