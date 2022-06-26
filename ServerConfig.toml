@@ -1,0 +1,28 @@
+
+[General]
+# If SendErrors is `true`, the server will send helpful info about crashes and other issues back to the BeamMP developers. This info may include your config, who is on your server at the time of the error, and similar general information. This kind of data is vital in helping us diagnose and fix issues faster. This has no impact on server performance. You can opt-out of this system by setting this to `false`
+SendErrorsShowMessage = true
+
+Name = "Connect Hosting Free server"
+Port = 
+ResourceFolder = "Resources"
+# AuthKey has to be filled out in order to run the server
+AuthKey = ""
+Private = false
+MaxPlayers = 10
+Debug = false
+Description = "Connect Hosting Free server, join the discord https://discord.gg/Dz3zTMSeuy"
+MaxCars = 5
+Map = "/levels/west_coast_usa/info.json"
+# You can turn on/off the SendErrors message you get on startup here
+SendErrors = true
+
+[HTTP]
+SSLCertPath = "./.ssl/HttpServer/cert.pem"
+HTTPServerPort = 8080
+# Recommended to keep enabled. With SSL the server will serve https and requires valid key and cert files
+UseSSL = true
+SSLKeyPath = "./.ssl/HttpServer/key.pem"
+# Enables the internal HTTP server
+HTTPServerEnabled = false
+
