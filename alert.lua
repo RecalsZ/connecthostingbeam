@@ -1,7 +1,7 @@
 -- Copyright (c) 2022 Lion Kortlepel. Use allowed under MIT license.
 
-local minutes = 5
-local message = "this is lionkor's periodic announcement plugin"
+local minutes = 10
+local message = "This server is hosted for free by ConnectHosting.net"
 
 function discordReminder()
 	MP.SendChatMessage(-1, message)
