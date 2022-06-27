@@ -9,6 +9,7 @@ ResourceFolder = "Resources"
 # Change the Auth Key in the startup section above settings on the connect hosting panel.
 AuthKey = ""
 Private = false
+# Change the Playey count in the startup section above settings on the connect hosting panel.
 MaxPlayers = 10
 Debug = false
 Description = "Connect Hosting Free server, join the discord https://discord.gg/Dz3zTMSeuy"
