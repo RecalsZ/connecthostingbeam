@@ -22,7 +22,7 @@ SendErrors = true
 SSLCertPath = "./.ssl/HttpServer/cert.pem"
 HTTPServerPort = 8080
 # Recommended to keep enabled. With SSL the server will serve https and requires valid key and cert files
-UseSSL = true
+UseSSL = false
 SSLKeyPath = "./.ssl/HttpServer/key.pem"
 # Enables the internal HTTP server
 HTTPServerEnabled = false
