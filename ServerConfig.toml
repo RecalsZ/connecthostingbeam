@@ -27,3 +27,5 @@ SSLKeyPath = "./.ssl/HttpServer/key.pem"
 # Enables the internal HTTP server
 HTTPServerEnabled = false
 
+
+ImScaredOfUpdates = false
